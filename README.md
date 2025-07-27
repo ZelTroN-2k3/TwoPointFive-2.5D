@@ -2,7 +2,7 @@
 
 TwoPointFive est un plugin pour le moteur de jeu HTML5 Impact (http://impactjs.com/) qui fournit une vue 3D de l'univers du jeu.
 
-![Doom nano ESP32](https://github.com/ZelTroN-2k3/Doom-Nano-ESP32/blob/main/images/Doom-nano-ESP32.jpg)
+![Doom nano ESP32](https://github.com/ZelTroN-2k3/TwoPointFive-2.5D/blob/main/images/intro.png)
 ### Démo
 [Intro](http://phoboslab.org/twopointfive/)
 
@@ -11,11 +11,11 @@ Veuillez noter que vous avez besoin d'une licence Impact pour exécuter la démo
 Les répertoires `lib/impact/` et `lib/weltmeister/` d'Impact doivent être copiés dans le répertoire `lib/` de cette démo.
 
 ### Screen 01
-![Screen 1](https://github.com/ZelTroN-2k3/Doom-Nano-ESP32/blob/main/images/Doom-nano-ESP32.jpg)
+![Screen 1](https://github.com/ZelTroN-2k3/TwoPointFive-2.5D/blob/main/images/screen-01.png)
 ### Screen 02
-![Screen 2](https://github.com/ZelTroN-2k3/Doom-Nano-ESP32/blob/main/images/Doom-nano-ESP32.jpg)
+![Screen 2](https://github.com/ZelTroN-2k3/TwoPointFive-2.5D/blob/main/images/screen-02.png)
 ### Screen 03
-![Screen3](https://github.com/ZelTroN-2k3/Doom-Nano-ESP32/blob/main/images/Doom-nano-ESP32.jpg)
+![Screen 3](https://github.com/ZelTroN-2k3/TwoPointFive-2.5D/blob/main/images/screen-03.png)
 ### Utilisation
 
 Le jeu de démonstration et ses sources dans `lib/game/` devraient vous donner un bon aperçu de l'utilisation du plugin.
