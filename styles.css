@@ -3,13 +3,14 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-
-html {
-	background-color: #222;
-	padding: 0;
-	margin: 0;
+html, body {
+    background-color: #000; /* Fond noir conseillé */
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Important pour le plein écran */
 }
-
 body {
 	color: #eee;
 	font-family: helvetica, arial, sans-serif;
@@ -18,13 +19,12 @@ body {
 	line-height: 1.3;
 }
 canvas {
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: auto;
-	margin-right: auto;
-	margin-top: 50px;
     display: block;
-	width: 1280px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 h1 {
 	color: #ccc;
@@ -101,11 +101,11 @@ body.mobile {
 	font-size: 8px;
 }
 
-body.desktop #canvas {
+/*body.desktop #canvas {
 	width: 640px;
 	height: 480px;
 	background-color: #000;
-}
+}*/
 
 body.mobile #canvas {
 	position: fixed;
